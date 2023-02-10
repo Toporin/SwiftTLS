@@ -1,6 +1,0 @@
-module OpenSSL [system] {
-    header "../../../Tests/macOS/external/openssl/openssl/bn.h"
-    header "../../../Tests/macOS/external/openssl/openssl/rsa.h"
-    header "../../../Tests/macOS/external/openssl/openssl/opensslconf.h"
-    export *
-}

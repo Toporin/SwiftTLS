@@ -4,8 +4,9 @@ SwiftTLS is a Swift-only implementation of TLS 1.3 and 1.2 that hopes to avoid c
 
 SwiftTLS is licensed under the MIT License.
 
-## Status
-![](https://github.com/nsc/SwiftTLS/workflows/macOS/badge.svg) ![](https://github.com/nsc/SwiftTLS/workflows/Linux/badge.svg)
+## Satochip fork
+
+The original project appears unmaintained. This fork is a simplified version that patches an issue (see https://github.com/apple/swift-nio/pull/1925) and exposes some internal classes and structs. The aim of this fork is mainly to parse X509 certificates for iOS.
 
 ## Features
 Crypto
